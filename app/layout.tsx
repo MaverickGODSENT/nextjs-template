@@ -20,18 +20,18 @@ export default function RootLayout({
       <body className={inter.className}>
         <nav className="navigation">
           <Link className="navigation-logo" href="/">
-            LOGO/HOME
+            Razer
           </Link>
 
-          <Link className="navigation-link" href="/about">
-            ABOUT
+          <Link className="navigation-link" href="https://www.razer.com/community">
+            COMMUNITY
           </Link>
-          <Link className="navigation-link" href="/contact">
-            CONTACT
+          <Link className="navigation-link" href="https://support.razer.com/?c=us">
+            SUPPORT
           </Link>
         </nav>
         <main className="main-container">{children}</main>
-        <footer>Created by someone hungry 🍔</footer>
+        <footer>Created by Galin Ivanov</footer>
       </body>
     </html>
   );
